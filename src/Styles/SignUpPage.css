@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.SignUpPage-storage{
+    margin-top: 7.5vh;
+    min-height: 82.5vh;
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
+.SignUpPage-content-box{
+    width: 40%;
+    min-height: 82.5vh;
+    /* background-color: yellow;     */
+    color: white;
+}
+.SignUpPage-content-heading{
+    font-size: 2.5rem;
+    font-weight: bold;
+    word-spacing: -0.2rem;
+    margin-bottom: 2vh;
+    color: #EEEADE;
+}
+.SignUpPage-content-desc{
+    font-size: 1.8rem;
+    color: #AFB2BF;
+}
+.SignUpPage-content-desc-italic{
+    font-style: italic;
+    color: #47A5C5;
+    margin-top: 2vh;
+}
+.SignUpPage-switch-div{
+    height: 7vh;
+    width: 55%;
+    border-radius: 10rem;
+    background-color: #161D29;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vh;
+}
+.SignUpPage-switch-div-item{
+    box-sizing: border-box;
+    width: 48%;
+    height: 80%;
+    border-radius: 10rem;
+    text-align: center;
+    font-size: 1.3rem;
+    padding-top: 1vh;
+    background-color: #000814;
+    cursor: pointer;
+    user-select: none;
+}
+.SignUpPage-switch-div-item-unselected{
+    background-color: transparent;
+}
+.SignUpPage-form{
+    margin-top: 4vh;
+    width: 100%;
+    /* background-color: yellow; */
+    /* min-height: 45vh; */
+}
+.SignUpPage-form-name-div{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+}
+.SignUpPage-form-name-div-item{
+    box-sizing: border-box;
+    width: 48%;
+    position: relative;
+    padding-bottom: 2%;
+}
+.SignUpPage-form-label{
+    /* margin-top: -0.8vh; */
+    font-size: 1.2rem;
+    margin-bottom: 0.5vh;
+}
+.SignUpPage-form-label-req{
+    color: red;
+}
+.SignUpPage-form-input{
+    /* outline: none; */
+    box-sizing: border-box;
+    margin-left: 1%;
+    width: 98%;
+    height: 7vh;
+    /* margin-top: -1.8vh; */
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    padding-left: 2%;
+    background-color: #161D29;
+    box-shadow: rgba(255, 255, 255, 0.18) 0px -1px 0px inset;
+    border: none;
+    color: white;
+    /* position: absolute; */
+}
+
+.eyeicon{
+    position: absolute;
+    /* align-items: center; */
+    top : 5.5vh;
+    left: 85%;
+    z-index: 1;
+    width: 10%;
+    height: 5vh;
+    cursor: pointer;
+   }
+.SignUpPage-form-submit-btn{
+    margin-top: 12vh;
+    width: 100%;    
+    height: 6vh;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: #FFD60A;
+    cursor: pointer;
+}
+.SignUpPage-content-login-google{
+    margin-top: 5vh;
+    width: 100%;    
+    height: 6vh;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    color: rgb(175 178 191);
+    border: 1px solid #AFB2Bf;
+    text-align: center;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    cursor: pointer;
+}
+.googleLogo{
+    width: 40%;
+    background-color: rebeccapurple;
+}
+.googleimg{
+    height: 45%;
+}
+.SignUpPage-image-box{
+    width: 38.5%;
+    min-height: 82.5vh;
+    /* background-color: yellow; */
+    position: relative;
+}
+.SignUpPage-image-frame{
+    width: 100%;
+    position: absolute;
+    box-shadow: 0px 0px 10px white, 0px 0px 10px white;
+}
+.SignUpPage-image-img{
+    width: 100%;
+    height: 56.3vh;
+    position: absolute;
+    box-shadow: 0px 0px 10px white;
+    top: -2.5vh;
+    left: -2.5vh;
+}

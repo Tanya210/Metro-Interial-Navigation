@@ -1,0 +1,63 @@
+.Navbar-storage{
+    box-sizing: border-box;
+    height: 10vh;
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: visible;
+    user-select: none;
+}
+.Navbar-item{
+    box-sizing: border-box;
+    height: 100%;
+    /* background-color: rebeccapurple; */
+    /* min-width: 20%; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.Navbar-img-div{
+    /* background-color: white; */
+    width: 26%;
+    height: 100%;
+    overflow-x: visible;
+    cursor: pointer;
+   
+}
+.Navbar-logo{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+.Navbar-link{
+    gap: 12%;
+    font-size: 1.3rem;
+    min-width: 25%;
+    /* margin-left: -5%; */
+    /* background-color: rgb(15, 55, 91); */
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.Navbar-item-link{
+    cursor: pointer;
+}
+.Navbar-btn{
+    min-width: 30%;
+    gap: 7%;
+    /* background-color: red; */
+}
+.Navbar-btns-look{
+    /* width: 70%; */
+    width: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 58%;
+    border-radius: 1rem;
+    background-color: #161D29;
+    color: #AFB2Bf;
+    font-size: 1.3rem;
+    border: 1px solid #AFB2Bf;
+    cursor: pointer;
+}

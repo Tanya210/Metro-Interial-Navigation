@@ -1,0 +1,70 @@
+.PathShowContainer-storage{
+    min-height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* overflow-y: scroll; */
+    padding-bottom: 2vh;
+    position: relative;
+}
+.totalSteps{
+    position: absolute;
+    z-index: 5;
+    /* color: #030370; */
+    color: #030370;
+    text-shadow: -2px 4px 3px #e0bc03;
+    font-size: 2rem;
+    font-weight: bold;
+    top: 1.5vh;
+    right: 10%;
+}
+.entryBox{
+    margin-top: 2vh;
+    min-height: 10vh;
+    width: 88%;
+    background-color: rgb(243, 243, 194);
+    border-radius: 1rem;
+    display: flex;
+}
+.entryBox-image{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.entryBox-data{
+    min-height: 15vh;
+    /* background-color: rgb(0, 255, 17); */
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content:  center ;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    /* color: #090945; */
+    color: #030370;
+}
+.entryBox-image-img{
+    width: 80%;
+}
+.entryBox-data-heading{
+    padding-right: 5%;
+    /* margin-top: 2vh; */
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    /* background-color: rebeccapurple; */
+    overflow-y: hidden;
+}
+
+.entryBox-data-description{
+    padding-right: 5%;
+    margin-top: 1.5vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    font-weight: 900px;
+}

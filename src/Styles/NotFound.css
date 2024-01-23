@@ -1,0 +1,13 @@
+.NotFound-storage{
+margin-top: 7.5vh;
+min-height: 82.5vh;
+width: 100%;
+/* background-color: brown; */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.NotFound-heading{
+    font-size: 3rem;
+    font-weight: 400;
+}
